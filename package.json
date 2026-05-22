@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "consumer": "node consumer.js",
+    "producer": "node producer.js"
+  },
+  "dependencies": {
+    "amqplib": "^2.0.1"
+  }
+}
